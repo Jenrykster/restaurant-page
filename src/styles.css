@@ -23,6 +23,15 @@ body{
     font-size: 3.5em;
 }
 
+.content-container {
+    display: flex;
+    width: 100%;
+}
+.content-container img{
+    width: 50vw;
+    height: auto;
+}
+
 @media (max-width: 700px) {
     .background {
         height: 20vh;
