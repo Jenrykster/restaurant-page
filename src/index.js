@@ -1,1 +1,1 @@
-console.log("Hello World !");
+const page = document.querySelector('#content');
