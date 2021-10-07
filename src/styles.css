@@ -64,6 +64,9 @@ body{
 .tab-container div{
     margin: 4px;
 }
+.tab-container div:hover{
+    cursor: pointer;
+}
 
 .selected {
     color: snow;
