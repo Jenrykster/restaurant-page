@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Jenrykster/restaurant-page#readme",
   "devDependencies": {
     "css-loader": "^6.3.0",
+    "gh-pages": "^3.2.3",
     "style-loader": "^3.3.0",
     "webpack": "^5.56.1",
     "webpack-cli": "^4.8.0"

@@ -10,4 +10,6 @@ The assignment consists of the following:
 4. Add elements to the page using javascript ES6 modules
 5. Create different tabs and organize them in different modules
 6. Bundle the code with webpack loaders
-7. Host the static page
+7. Host the static page (I used [gh-pages](https://www.npmjs.com/package/gh-pages) for this)
+
+### You can visit the page [HERE](https://jenrykster.github.io/restaurant-page/).
