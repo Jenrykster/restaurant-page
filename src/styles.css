@@ -71,6 +71,23 @@ body{
     border-radius: 5px;
     border: 2px black solid;
 }
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border:  1px solid black;
+    width: 25%;
+}
+.menu-item img{
+    max-width: 200px;
+    max-height: 200px;
+}
 @media (max-width: 700px) {
     .background {
         height: 20vh;
