@@ -21,14 +21,15 @@ const createMainPage = () =>{
     sectionTitle.innerHTML = "LOREM AU RANT";
 
     let sectionText = document.createElement('p');
-    sectionText.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet malesuada sapien. Etiam leo neque, condimentum sed sollicitudin vitae, ultricies id tortor. Aliquam pellentesque at turpis at mollis. Donec a ipsum odio. Etiam faucibus tortor a laoreet laoreet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer lobortis nulla id sapien ullamcorper sagittis. Proin in'
+    sectionText.innerHTML = '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet malesuada sapien. Proin in"'
     
     textContainerElement.appendChild(sectionTitle);
     textContainerElement.appendChild(sectionText);
+    textContainerElement.classList.add('center');
+    textContainerElement.classList.add('text-container');
     let foodImgElement = new Image();
 
     foodImgElement.src = FoodImage;
-
     contentContainer.appendChild(foodImgElement);
 
     contentContainer.appendChild(textContainerElement);

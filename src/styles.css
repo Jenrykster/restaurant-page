@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 body{
     margin: 0px;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 .background {
     display: flex;
@@ -12,6 +16,7 @@ body{
     background-size: cover;
     background-position: 0px -100px;
     background-repeat: no-repeat;
+    border-bottom: 1px black solid;
 }
 
 .title-text {
@@ -29,14 +34,31 @@ body{
 }
 .content-container img{
     width: 50vw;
-    height: auto;
+    height: calc(100vh - 200px);
+}
+.text-container {
+    padding: 40px;
+    text-align: center;
 }
 
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 @media (max-width: 700px) {
     .background {
         height: 20vh;
         background-size: cover;
         background-position: 0px -50px;
+    }
+    .content-container {
+        flex-direction: column-reverse;
+    }
+    .content-container img {
+        width: auto;
+        height: 63vh;
     }
     .title-text {
         font-size: 2em;
@@ -50,5 +72,8 @@ body{
     }
     .title-text {
         font-size: 1.5em;
+    }
+    .content-container img {
+        height: 57vh;
     }
 }
