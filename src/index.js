@@ -13,7 +13,7 @@ let selected = 'main-tab';
 startPage();
 
 function startPage(){
-    const tabSelector = document.querySelectorAll('#tab-container');
+    const tabSelector = document.querySelectorAll('#tab-container div');
 
     for(let element of tabSelector){
         element.onclick = selectTab;
