@@ -4,6 +4,16 @@ body{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: ease-in 0.5s;
+    font-size: 3em;
+}
+a:hover {
+    text-decoration: underline;
+}
 .background {
     display: flex;
     flex-direction: column;
