@@ -22,11 +22,15 @@ const createHeader = () => {
     tabContainer.appendChild(menuTab);
     tabContainer.appendChild(contactTab);
 
+    let tabWrapper = document.createElement('div');
+    tabWrapper.appendChild(tabContainer);
+    tabWrapper.classList.add('tab-wrapper');
+
     let title = document.createElement('h4');
     title.innerHTML = 'REST AU RANT';
 
     header.appendChild(title);
-    header.appendChild(tabContainer);
+    header.appendChild(tabWrapper);
     
     return header;
 }
