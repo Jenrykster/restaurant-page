@@ -47,6 +47,30 @@ body{
     justify-content: center;
     flex-direction: column;
 }
+
+.header {
+    display: flex;
+    border-bottom: black 1px solid;
+}
+.header h4 {
+    margin: 5px;
+}
+
+.tab-container {
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+}
+.tab-container div{
+    margin: 4px;
+}
+
+.selected {
+    color: snow;
+    background-color: black;
+    border-radius: 5px;
+    border: 2px black solid;
+}
 @media (max-width: 700px) {
     .background {
         height: 20vh;
