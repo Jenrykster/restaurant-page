@@ -6,13 +6,17 @@ const createHeader = () => {
 
     let mainTab = document.createElement('div');
     mainTab.innerHTML = "Home";
+    mainTab.id = 'main-tab';
 
     let menuTab = document.createElement('div');
     menuTab.innerHTML = "Menu";
+    menuTab.id = 'menu-tab';
 
     let contactTab = document.createElement('div');
     contactTab.innerHTML = "Contact";
-
+    contactTab.id = 'contact-tab';
+    
+    tabContainer.id = 'tab-container';
     tabContainer.classList.add('tab-container');
     tabContainer.appendChild(mainTab);
     tabContainer.appendChild(menuTab);
@@ -23,8 +27,6 @@ const createHeader = () => {
 
     header.appendChild(title);
     header.appendChild(tabContainer);
-
-    mainTab.classList.add('selected');
     
     return header;
 }
