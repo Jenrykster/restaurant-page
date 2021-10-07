@@ -60,6 +60,7 @@ body{
     display: flex;
     align-items: center;
     margin-left: 25%;
+    user-select: none;
 }
 .tab-container div{
     margin: 4px;
